@@ -14,7 +14,7 @@ TODO: move stuff here from LinkedIn.  Redirect LinkedIn people to here.
     * Job Server is being included in Datastax Enterprise!
 * Creator and maintainer: [Scala links](http://github.com/velvia/links) - useful links for learning Scala and Scala projects
 * Creator and maintainer: [ScalaStorm](http://github.com/velvia/ScalaStorm)
-* Creator and maintainer: [msgpack4s](http://github.com/velvia/msgpack4s) - a simple MessagePack library for Scala
+* Creator and maintainer: [msgpack4s](http://github.com/velvia/msgpack4s) - a fast, streaming-friendly, type-safe MessagePack library for Scala
 
 ### Where I Hang Out
 
