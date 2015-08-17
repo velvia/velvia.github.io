@@ -22,6 +22,10 @@ I like to think of myself as an artist.  Whether behind the camera lens, or lead
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+Big Data Scala 2015 - [End to End Pipeline Training](http://bit.ly/pipeline-slides) and [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark)
+
+SF Spark and Friends .. Cassandra South Bay Meetup .. Scala Days 2015 SF .. FOSS4G-NA 2015 .. Cassandra Summit 13 14 .. Spark Summit 13 14 ..
+
 ### Favorite Links and Causes
 
 * Abolishing modern human trafficking
