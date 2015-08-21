@@ -1,5 +1,4 @@
 ---
-date: 3012-08-23 09:14:00 +1000
 layout: post
 title: A Faith/Values-based Journey to Choosing a Software Job
 ---
@@ -63,7 +62,8 @@ I realized that my participation in open source gave me the answers to how to lo
 
 I'll end by telling the story of [Esther](https://en.wikipedia.org/wiki/Esther), from the Old Testament.  In those days the Jews were exiled in Persia, a mighty empire, and King Xerxes was looking for a new Queen.  Esther found favor with Xerxes and became Queen.  Later on, Esther was able to save her Jewish people by using her position to out an evil plan from the grand vizier, Haman, to pillage and exterminate the Jews.
 
-You might not realize this, but we are all in privileged positions within a palace.  We are all Esther's.  We all have loved ones, family, and communities that we have been placed in, and not by accident.  Our company, workplace, and industry might be that palace.  Take some time to relax and reflect on your priorities and perspective -- what can you do given the position you have been placed in already?  I did, and I realized my "palace" was the open source, Scala, big data communities.  I came away with a deep sense of peace, choosing to join a team which is not only doing interesting work, but deeply shares my vision of helping the open source community, and will also help push forward my projects that I care about.  I chose this over higher paying opportunities at companies with far bigger reputations.
+You might not realize this, but we are all in privileged positions within a palace.  We are all Esther's.  We all have loved ones, family, and communities that we have been placed in, and not by accident.  Our workplace, industry, profession, or circle of friends might be that palace.  Take some time to relax and reflect on your priorities and perspective -- what can you do given the position you have been placed in already?  I did, and I realized my "palace" was the open source, Scala, and big data communities.  I came away with a deep sense of peace, choosing to join a [team](http://tuplejump.com) which is not only doing interesting work, but deeply shares my vision of helping the open source community, and will also help push forward my projects that I care about.
 
-## Credits
+From *[Every Good Endeavor](http://www.amazon.com/Every-Good-Endeavor-Connecting-Your-ebook/dp/B007T8R18K)*: "If you have to choose between work that benefits more people and work that pays you more, you should seriously consider the job that pays less and helps more — particularly if you can be great at it. It means that all jobs — not merely so- called helping professions — are fundamentally ways of loving your neighbor."
 
+I pray and wish you luck on the journey to find meaning and peace in your workplace.
