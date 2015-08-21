@@ -1,7 +1,7 @@
 ---
 date: 3012-08-23 09:14:00 +1000
 layout: post
-title: A Faith/Community Journey to Choosing a Software Job
+title: A Faith/Values-based Journey to Choosing a Software Job
 ---
 
 I just decided on my next software job, and I have an immense sense of peace about my decision.  I'd like to share about the extended time I spent to reflect and decide -- so that you won't just rush to the next big name / hot startup / highest paying job, but really aim to make a values-based career decision you'll be at peace with.  I'll share about my values of relationship and "love your neighbor", how they came to influence my decision process, and how they apply to the software world.
@@ -39,34 +39,28 @@ Looking back, I realized that most of my important career inflection points were
 The above was probably something I realized before, but just had not applied to choosing software jobs.  I realized:
 - Being able to work for somebody you know (say your ex-boss) is a no-brainer.  They know to look out for your interests.
 - I really didn't want to do traditional interviews.  Your coworkers are people you will have tons of meetings with, who influence your happiness for 40 hours a week at least.  Why not work with people you know, instead of guessing what they might be like through a 1 hour interview?
-- Work with people who believe in you, instead of people to whom you constantly need to prove yourself. (I must credit this to @susielee on Twitter)
+    + (I have to acknowledge that I have enough open source cred that I can often point people at my work -- and not everyone is in this position)
+- I should work with people who believes in me, instead of people to whom I constantly need to prove myself. (from @urbansusie on Twitter)
 
-I decided to take a step of faith and stay with friends or people I knew when I travelled to conferences (when possible) instead of hotels.  In June I went to Spark Summit, and stayed at friends' places.  I had a blast and got great advice from my friends as well.  For me, it was an important confirmation that personal relationships should play a key role in my decision.
+I decided to take a step of faith and stay with friends or people I knew when I traveled to conferences (when possible) instead of hotels.  In June I went to Spark Summit, and stayed at friends' places.  I had a blast and got great advice from my friends as well.  Someone I had taught a bible class with, and who is also a big data consultant, suddenly offered me a place to stay, and I chatted with his son who's learning Java.  For me, it was an important confirmation that personal relationships should play a key role in my decision.
 
-do not chase $ and control; both are illusions -- chase relationships.
-- I should start my own business.  Well no.  Don't.  Find a strong team first.
+## My own Startup?
 
-African proverb quote.
+    "If you want to go fast, go alone.  If you want to go far, go together." -- African proverb
 
-Doing things together - what does that mean?   It's all about team.  Don't get so caught up in self.
-- Important to know who you'll be working with.  What are their values?
+Perhaps you have your own idea and want to start your own business.  I know I have my own projects that I want to turn into ideas, so I briefly flirted with doing my own thing.  However, "it is not good for man to be alone"; it's easy to want complete control, but important to realize a good team that complements you is key to taking ideas far.  In the end, I heeded the advice of others, and realized I'd rather have a smaller share of a big movement.  If you have the chance to be part of a team that shares in your vision, believes in you and can contribute technically too, do it!
 
 ## Loving Your Neighbor (and the Open Source Community)
 
-Why feel community important - blessings of church community, neighbors as we moved up. Swing dance community.
+Jesus told his followers that everything boiled down to loving God, and loving your neighbors as yourself.  What does this mean though, and how can I apply it to work and jobs?  In thinking about relationships, and who is my neighbor work-wise, I realized that I've been blessed by awesome tight-knit communities.  I was part of the swing-dancing community, and that community led me to my job at VMware as well as my wife.  In the same way, I started getting involved in the open source, Scala, and big data communities -- giving talks, contributing to projects and starting my own Github repos, writing blog posts, starting and running a Meetup, and more recently, helping with organizing and training at conferences.  All of this activity built many relationships, opened many doors, and was very rewarding.
 
-My community - the open source community.
-- So easy to take open source for granted
-- How I participate in OSS
-- Many ways to help the community - contributing back code, helping organize events, conference reviews, open sourcing innovative new stuff.... but also: being an expert in existing popular things, sharing knowledge
-- Joining a team that truly loves open source and the community
-- Where helping the community is a business benefit, not a liability
+I realized that my participation in open source gave me the answers to how to love my neighbors.  Many companies take open source for granted, using projects but rarely or never giving back.  Still others abandon or shut down communities as a way of doing business.  For me, being able to continue to give back to the open source community, that has given me so much, means to join a team which values and contributes to the community, from the top down.  Who understands why it is important to foster and develop communities.  For whom helping with community efforts is aligned with their business interests, not just something you do in your spare time.  My last job experience became one where neither the business nor my teammates shared my community vision, and it became a lonely and painful experience.  Work with others who believe strongly in collaborating with, and giving back to, the community!
 
-Confirmation partly through reading Every Good Endeavor.  Changed my understanding - Ruth and the Temple, what is our temple?
+## Serving others from our jobs
 
-## Consulting vs Product Development
+I'll end by telling the story of Esther, from the Old Testament.  In those days the Jews were exiled in Persia, a mighty empire, and King Xerxes was looking for a new Queen.  Esther found favor with Xerxes and became Queen.  Later on, Esther was able to save her Jewish people by using her position to out an evil plan to murder and take over Jewish possessions.
 
-## Putting it all together, or letting God decide
+You might not realize this, but we are all in privileged positions within a palace.  We are all Esther's.  We all have loved ones, family, and communities that we have been placed in, and not by accident.  Our company, workplace, and industry is that palace.  Take some time to relax and reflect on your priorities and perspective.  I did, and came away with a deep sense of peace, choosing to join a team which is not only doing interesting work, but deeply shares my vision of helping the open source community.  I chose this over higher paying opportunities at companies with far bigger reputations.
 
-- Multiple confirmations: word, prayer, circumstances, friends
+## Credits
 
