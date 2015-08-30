@@ -187,22 +187,20 @@ Finally, you probably want to specify the script or command to start your app:
 
 ### Pushing and Releasing
 
+`sbt dockerPush` will build and push the image for you.  This is just a convenience - it is equivalent to doing `sbt docker`, which builds the image in your docker daemon in your Linux VM, and invoking `docker push <image-id>` from the command line.
+
+You can see the results at the [Spark Job Server container](https://hub.docker.com/r/velvia/spark-jobserver/) on Dockerhub...
+
 NOTE: you need to do `docker login` first before pushing.
+
+Note that `sbt-docker` generates a Dockerfile in `target/docker/Dockerfile`.
 
 ## General tips on Dockerizing
 
 Docker has [best practices](https://docs.docker.com/articles/dockerfile_best-practices/) for writing Dockerfiles.  Some things to think about:
 
 * Modularity - each docker image is meant to be small and contain only one process.  If you find yourself stuffing tons of services into one container, consider breaking them apart.
+* Consider using a Scala base image and not including Scala standard lib - iterate much faster!
 * Ease to start - if possible, have `docker run` start everything automatically.  Users can configure the service using `-e` to override environment variables or command line arguments.
-
-## Dockerizing Scala/JVM Apps and Spark
-
-- Use a lightweight base Java image
-- Consider using a Scala base image and not including Scala standard lib - iterate much faster!
-- For an example of dockerizing Spark apps, have a look at my [Spark Job Server container](https://hub.docker.com/r/velvia/spark-jobserver/) on Dockerhub...
-    + One problem with Spark is that there are so many versions ... it can be compiled for Hadoop 1.x, 2.4, 2.6, CDH; with or without Mesos; Spark 2.10 or 2.11. 
-    + I solve this by using a base Java7 (Sun) image with Mesos, then using environment vars to control what Spark distribution to download and install
-    + Meantime, in your Spark app, do not package Spark dependencies themselves nor Scala in the final assembly.  The details of this can be found in the Spark Job Server build files (`Build.scala`).
 
 Happy dockerizing!
