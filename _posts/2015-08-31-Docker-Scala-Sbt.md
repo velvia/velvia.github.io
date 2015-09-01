@@ -1,5 +1,4 @@
 ---
-date: 3012-08-23 09:14:00 +1000
 layout: post
 title: Dockerizing your Scala apps with sbt-docker
 ---
@@ -18,6 +17,7 @@ I'm sure this subject has been beaten to death, and there are some that feel lik
 
 1. Right now, if you only had time to package your project or app one way, Docker is the way to go.
 2. For people trying out your open source repo, `docker run` is as easy and more universal (arguably) than most alternatives.  No need to build anything.
+3. Users can easily modify your container without rebuilding it by inheriting from it and overriding files, env vars, etc.
 3. Let's say you want to package a whole bunch of open source projects together for people to try out -- for our training we had to put together Cassandra, Kafka, Spark, and more.  Throw them all into one container for convenience.
 4. I personally find the port and file namespacing helps.  It minimizes configuration and it's nice to know your database path is at `/database`.
 
@@ -44,7 +44,10 @@ In brief:
 
 * Install docker locally on OSX using `brew install docker`
 * Configure `DOCKER_HOST` on OSX to point at your static IP:
-        export DOCKER_HOST=tcp://192.168.56.10:2375
+
+    ```bash
+    export DOCKER_HOST=tcp://192.168.56.10:2375
+    ```
 
 This setup will let you use the Docker daemon in your VM to create the containers, but drive it automatically from any process on OSX itself which calls `docker build` locally.
 
@@ -129,6 +132,8 @@ Let's break this down:
 * `val artifact = ` line finds the full path of the assembly JAR from that project
 * `val artifactTargetPath` creates the target (inside container) path 
 
+Note how we can define `val`s in the `dockerfile in docker` block, and use Scala string interpolation in the docker commands!
+
 #### EXPOSE
 
 Exposing a port is super easy:
@@ -142,7 +147,7 @@ Note that I like to expose a JMX port for app debugging, and you can configure J
 
 #### ENV
 
-The ENV directive in a Dockerfile sets up an environment variable at both container runtime as well as Docker image build time (ie the RUN commands can use it).  These are especially useful for reusing vars in both places.  An example is, for Spark Job Server, the SPARK_VERSION can be used both at docker build time and by the runtime scripts:
+The ENV directive in a Dockerfile sets up an environment variable at both container runtime as well as Docker image build time (ie the RUN commands can use it).  These are especially useful for reusing vars in both places.  An example is, for Spark Job Server, the SPARK_BUILD variable can be used both at docker build time and by the runtime scripts:
 
 ```scala
     env("SPARK_BUILD", s"spark-${sparkVersion}-bin-hadoop2.4")
@@ -153,7 +158,7 @@ The ENV directive in a Dockerfile sets up an environment variable at both contai
            """)
 ```
 
-The above links the sparkVersion scala variable, which is also used during the jobserver SBT build to fetch dependencies to compile against, to the version of Spark downloaded in the RUN command when the container is built.  Note how scala code could be used to generate parts of the Dockerfile.
+The above links the sparkVersion scala variable, which is also used during the jobserver SBT build to fetch dependencies to compile against, to the version of Spark downloaded in the RUN command when the container is built, thus ensuring that a compile and runtime dependency both match.  Leaving this as an ENV also makes it easier for others to modify your container.
 
 #### RUN
 
