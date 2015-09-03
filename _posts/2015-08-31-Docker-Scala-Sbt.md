@@ -192,7 +192,7 @@ Finally, you probably want to specify the script or command to start your app:
 
 ### Pushing and Releasing
 
-`sbt dockerPush` will build and push the image for you.  This is just a convenience - it is equivalent to doing `sbt docker`, which builds the image in your docker daemon in your Linux VM, and invoking `docker push <image-id>` from the command line.
+`sbt dockerBuildAndPush` will build and push the image for you.  This is just a convenience - it is equivalent to doing `sbt docker`, which builds the image in your docker daemon in your Linux VM, and invoking `docker push <image-id>` from the command line.
 
 You can see the results at the [Spark Job Server container](https://hub.docker.com/r/velvia/spark-jobserver/) on Dockerhub...
 
