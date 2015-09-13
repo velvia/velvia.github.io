@@ -1,3 +1,18 @@
+# Quick Start
+
+To draft posts and save them to github too without them showing up, add a future date to your blog post header, like this:
+
+    ---
+    layout: post
+    title: Dockerizing your Scala apps with sbt-docker
+    ---
+
+then run this command:
+
+    jekyll serve -w --future
+
+For more details see this blog post: http://tqclarkson.com/2012/08/22/jekyll-drafts/  (but note that the jekyll command there is old)
+
 # Jekyll Now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
