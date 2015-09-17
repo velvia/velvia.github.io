@@ -32,7 +32,7 @@ Ingesting data is also very easy through Spark DataFrames.  This means you can e
 
 ## Simplify your Analytics Stack.  FiloDB + SMACK for everything.
 
-Use Kafka + Spark + Cassandra + FiloDB for both streaming and ad-hoc/batch analytics needs.  There is no need to implement a complex Lambda dual ingestion pipeline with both Cassandra and Hadoop!   You can use the [SMACK](http://noetl.org) stack (Spark/Scala, Mesos, Akka, Cassandra, Kafka) for a much bigger portion of your analytics stack than before, reducing infrastructure investment.
+Use Kafka + Spark + Cassandra + FiloDB to power your entire Lamba architecture implementation.  There is no need to implement a complex Lambda dual ingestion pipeline with both Cassandra and Hadoop!   You can use the [SMACK](http://noetl.org) stack (Spark/Scala, Mesos, Akka, Cassandra, Kafka) for a much bigger portion of your analytics stack than before, reducing infrastructure investment.
 
 ## What's in the name?
 
