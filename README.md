@@ -5,6 +5,7 @@ To draft posts and save them to github too without them showing up, add a future
     ---
     layout: post
     title: Dockerizing your Scala apps with sbt-docker
+    date: 3012-08-23 09:14:00 +1000
     ---
 
 then run this command:
