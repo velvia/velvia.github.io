@@ -40,6 +40,10 @@ Use Kafka + Spark + Cassandra + FiloDB for both streaming and ad-hoc/batch analy
 
 I love desserts, and Filo dough is an essential ingredient.  One can think of columns and versions of data as layers, and FiloDB wrapping the layers in a yummy high-performance analytical database engine.
 
+## Proudly built with the Typesafe Stack
+
+FiloDB is built with the Typesafe reactive stack for high-performance distributed computing and asynchronous I/O - Scala, Spark, and [Akka](http://akka.io).
+
 ## Come to the Talk at Cassandra Summit!
 
 If you’d like to learn more, I encourage you to come on over to [Cassandra Summit](http://cassandrasummit-datastax.com/?source=) in Santa Clara, where I’ll be speaking about FiloDB and Spark and Cassandra, on Thursday September 24th at the Santa Clara Convention Center!  Or feel free to reach out.  The repo and more details such as the roadmap will be unveiled at the talk.
