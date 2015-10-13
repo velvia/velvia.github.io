@@ -27,6 +27,8 @@ See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site
 
 Big Data Scala 2015 - [End to End Pipeline Training](http://bit.ly/pipeline-slides) and [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark)
 
+Video of my talk [Interactive OLAP on Spark and Cassandra](https://www.youtube.com/watch?v=zke8mp-kMMo)
+
 SF Spark and Friends .. Cassandra South Bay Meetup .. Scala Days 2015 SF .. FOSS4G-NA 2015 .. Cassandra Summit 13 14 .. Spark Summit 13 14 ..
 
 ### Favorite Links and Causes
