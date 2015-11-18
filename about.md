@@ -29,6 +29,8 @@ Spark Summit EU 2015 talk - Productionizing Spark and the Spark Job Server [vide
 
 Big Data Scala 2015 - [End to End Pipeline Training](http://bit.ly/pipeline-slides) and [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark)
 
+SF Spark and Friends - Nov 2015 - [FiloDB: Combining Spark Streaming and Ad-Hoc Analytics](http://velvia.github.io/presentations/2015-filodb-spark-streaming)
+
 Video of my talk [Interactive OLAP on Spark and Cassandra](https://www.youtube.com/watch?v=zke8mp-kMMo)
 
 SF Spark and Friends .. Cassandra South Bay Meetup .. Scala Days 2015 SF .. FOSS4G-NA 2015 .. Cassandra Summit 13 14 .. Spark Summit 13 14 ..
