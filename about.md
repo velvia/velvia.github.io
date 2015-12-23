@@ -25,6 +25,8 @@ These are all projects I created or co-created, and I maintain most of them... w
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+Strata Singapore 2015 - [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark) - sorry video doesn't seem to be up yet.
+
 Spark Summit EU 2015 talk - Productionizing Spark and the Spark Job Server [video](https://www.youtube.com/watch?v=kQGS_6TxfTk&list=PL-x35fyliRwi8TqkQ_dZjoNSkUWkcl01e&index=6) and [slides](https://t.co/bhKKfWgopt)
 
 Big Data Scala 2015 - [End to End Pipeline Training](http://bit.ly/pipeline-slides) and [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark)
