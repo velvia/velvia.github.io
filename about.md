@@ -21,11 +21,15 @@ These are all projects I created or co-created, and I maintain most of them... w
 
 * [Gitter/spark-jobserver](https://gitter.im/spark-jobserver/spark-jobserver)
 
+### Interviews, WebCasts, Blogs
+
+Typesafe blog/interview - [Fast Forward With Fast Data, Scala and Akka: Q/A with Spark Job Server creator](https://t.co/YUCdpUTqyg)
+
+O'Reilly Podcast Interview - [Building a Scalable Platform for Streaming Updates and Analytics](https://www.oreilly.com/ideas/building-a-scalable-platform-for-streaming-updates-and-analytics)
+
 ### Presentations and Conferences
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
-
-O'Reilly Podcast Interview - [Building a Scalable Platform for Streaming Updates and Analytics](https://www.oreilly.com/ideas/building-a-scalable-platform-for-streaming-updates-and-analytics)
 
 Strata Singapore 2015 - [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark) - sorry video doesn't seem to be up yet but here is [synopsis](http://conferences.oreilly.com/strata/big-data-conference-sg-2015/public/schedule/detail/44794).
 
