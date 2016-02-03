@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Scala Path Dependent Types
-date: 2017-01-22
+tags: [scala]
+date: 2016-02-02
 ---
 
-In the course of working on [FiloDB](http://github.com/tuplejump/FiloDB) and other Scala data apps, we often have to work with data whose types are not known at compile time.  However, usually we have schemas or other information that tells us, at runtime, what type that data is.  What are some approaches we can take to work with data like that?
+In the course of working on [FiloDB](http://github.com/tuplejump/FiloDB) and other Scala data apps, we often have to work with data whose types are not known at compile time.  For FiloDB, for example, a user can ingest data with any schema.  At runtime, the schema tells us what type each column of data is.  What are some approaches we can take to work with data like that?
 
 ## Type classes
 
@@ -84,7 +85,7 @@ By the way, declaring `c.T` in a method parameter list must not occur in the sam
 
 ## Limits of Path-Dependent Types
 
-What if I want to pass `Comparator` around, to say a processing class that holds some state and returns results?   Let's see how path-dependent types does in a more complicated situation and write a simple `Processor` class:
+What if I want to pass `Comparator` around, to say a processing class that holds some state and returns results?  For FiloDB, this is very useful in type classes for different data types. What if we wanted to build some state around `Comparator`s, use them in say a `HashMap`?  Let's see how path-dependent types does in a more complicated situation and write a simple `Processor` class:
 
 ```scala
 class Processor(c: Comparator) {
@@ -105,4 +106,30 @@ scala> p.process(Seq(0, 1))
                             ^
 ```
 
-What happened here?  It seems Scala is no longer able to figure out that `Int` is the same type as `c.T`.  Actually, to Scala, the *path* of the type taken by the `process` method of `Processor` is no longer just `c.T`, but it includes the instance of Processor itself, so now it is considered `p.c.T`.  This is truly what is meant by "path-dependent": the type for one instance of `Processor` is different than another instance of `Processor`.  This can be useful in some instances, but in this case it makes it difficult to pass around and abstract away `Comparator` without doing type-casts, which defeats one of the original purposes 
+What happened here?  It seems Scala is no longer able to figure out that `Int` is the same type as `c.T`.  Actually, to Scala, the *path* of the type taken by the `process` method of `Processor` is no longer just `c.T`, but it includes the instance of Processor itself, so now it is considered `p.c.T`.  This is truly what is meant by "path-dependent": the type for one instance of `Processor` is different than another instance of `Processor`.  This can be useful in some instances, but in this case it makes it difficult to pass around and abstract away `Comparator` without doing type-casts, which defeats one of the original purposes of the type safety of path-dependent types.  Just to be clear, each different instance of `Comparator` could hold a different type, but we want a way to tell the compiler when they are really the same instance.
+
+## One possible workaround
+
+I don't have any great solutions here.  Ideally, the Scala compiler would recognize that `p.c.T` is really the same type as `c.T` as it should know that we passed in an immutable reference to the original `Comparator` when creating `Processor`.  It might be possible to go back to using type parameters in some cases, like this:
+
+```scala
+class Processor[K](c: Comparator { type T = K }) {
+  def process(items: Seq[K]): Int = {
+    c.compare(items(0), items(1))
+  }
+}
+```
+
+This seems to work well:
+
+```scala
+scala> val p = new Processor(IntComparator)
+p: Processor[Int] = Processor@3caaed78
+
+scala> p.process(Seq(0, 1))
+res1: Int = -1
+```
+
+However, I have seen that with more complex cases, you quickly run into nightmarish type errors, so YMMV.
+
+I hope you enjoyed this introduction to Scala's path-dependent types, and some of its limitations!
