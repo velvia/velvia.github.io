@@ -23,3 +23,20 @@ This is a separate blog post.
 ## Debugging Futures Deadlock
 
 TL/DR; Don't create backpressure on your futures by employing an ArrayBlockingQueue with an executor and have futures block when the queue is full.  This created deadlocks in FiloDB, as we (and likely you) have nested futures (fetching most data in FiloDB consists of at least two separate reads, which are tied together using either for-comprehensions, `Future.sequence`s, or both).  Instead, fail fast when the queue is full, or better yet, follow Akka-style backpressure and send messages back to slow down your pipeline.
+
+In short, don't ever block!!
+
+## Avoid lazy vals
+
+Lazy vals are really slow in performance critical sections.  Sometimes us Scala programmers use lazy vals to get around initialization issues and NullPointerExceptions, especially in traits.  Stuff like this:
+
+```scala
+trait MyTrait {
+    def someUnknownThing: A
+    lazy val derivedVar = fooFunc(someUnknownThing)
+}
+```
+
+My advice to you is, just don't go there.  You will keep being haunted by NPEs and other issues if you play with initialization in traits.  Instead, stick to `abstract class`es and single inheritance if you need initialization.  Your sanity and your performance will both thank you.
+
+Here is how Filo's mask reader got changed:  <link to commit>.   The result is much easier to reason about, and MUCH faster.  The JVM can inline nested final method calls.
