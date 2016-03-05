@@ -20,11 +20,32 @@ This is a separate blog post.
 ## Functional Validation using Scalactic
 This is a separate blog post.
 
-## Debugging Futures Deadlock
+## Futures
+
+### Debugging Futures Deadlock
 
 TL/DR; Don't create backpressure on your futures by employing an ArrayBlockingQueue with an executor and have futures block when the queue is full.  This created deadlocks in FiloDB, as we (and likely you) have nested futures (fetching most data in FiloDB consists of at least two separate reads, which are tied together using either for-comprehensions, `Future.sequence`s, or both).  Instead, fail fast when the queue is full, or better yet, follow Akka-style backpressure and send messages back to slow down your pipeline.
 
 In short, don't ever block!!
+
+### Be Careful of `Future.Sequence` esp with long lists
+
+In order for Future.Sequence to execute, it has to actually have a list of Futures, which means that all of those Futures must have been added to a thread pool, or be sitting in a queue in memory somewhere.  Make sure that the list is bounded, or better yet throttled (do small chunks at a time), or else you will end up possibly running out of memory, or deadlocked (see above).
+
+How the deadlock happened:
+- There were two ExecutionContexts used.  One for writes, global one used for reads.
+- Iterator[Segment] -> Iterator[Future[String]]; Future.sequence(iter.toList) forced all segments in MemTable to be appended at once
+- The huge flood of futures starts flooding the readSegment method, huge queue in global EC.  Remember that reads have multiple parts, so as queue builds up, later parts have to wait at end of line
+- As first reads come in, next part of appendSegment, the writeChunks, futures starts hitting the blocking writing EC.  
+- Enough reads come in, converted to write chunk futures, to fill up the blocking writing EC.  No more writes can happen.
+- First segment writes cannot complete because the last part, updating the segment cache, is done in the read EC, which is way backed up.
+- Deadlock.  Read EC cannot drain because blocked by write EC.
+
+### The winning recipe for dealing with Futures
+
+1. Don't rely primarily on ExecutionContexts to throttle (the old Java way), especially with blocking.  Scala futures compose and mapping and other callbacks cause too many dependencies.  Instead, throttle in application-layer logic.
+2. Follow-on to above: Use the Futiles library (https://github.com/johanandren/futiles), especially `traverseSequentially` and `foldLeftSequentially`.  They are gold (you can batch futures using `Future.sequence` within each sequential operation.  See FiloDB's reprojector for an example).  They give you a way to easily rate-limit.
+3. If you want to use ExecutionContexts to control thread pool size, etc., use the CallerRunsPolicy RejectionExecutionHandler, so that instead of blocking, extra work gets queued in original caller's thread as a natural way of slowing down calls.
 
 ## Avoid lazy vals
 
