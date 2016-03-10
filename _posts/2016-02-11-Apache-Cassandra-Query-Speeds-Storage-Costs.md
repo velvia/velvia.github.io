@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apache Cassandra for Analytics: Performance and Storage Cost Analysis
+title: Apache Cassandra for Analytics - Performance and Storage Cost Analysis
 tags: [cassandra, big data, FiloDB, benchmarking]
 date: 2016-02-11
 ---
