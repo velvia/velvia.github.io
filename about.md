@@ -23,6 +23,8 @@ These are all projects I created or co-created, and I maintain most of them... w
 
 ### Interviews, WebCasts, Blogs
 
+O'Reilly Webcast - [Fast and Simplified Streaming, Ad-Hoc and Batch Analytics with FiloDB and Spark Streaming](http://www.oreilly.com/pub/e/3652)
+
 Typesafe blog/interview - [Fast Forward With Fast Data, Scala and Akka: Q/A with Spark Job Server creator](https://t.co/YUCdpUTqyg)
 
 O'Reilly blog: [Apache Cassandra for Analytics: A Performance and Storage Cost Analysis](https://www.oreilly.com/ideas/apache-cassandra-for-analytics-a-performance-and-storage-analysis)
