@@ -35,6 +35,8 @@ O'Reilly Podcast Interview - [Building a Scalable Platform for Streaming Updates
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+Strata San Jose 2015 - [NoLambda: A new architecture combining streaming, ad hoc, machine-learning, and batch analytics](http://conferences.oreilly.com/strata/hadoop-big-data-ca/public/schedule/detail/46818)
+
 Strata Singapore 2015 - [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark) - sorry video doesn't seem to be up yet but here is [synopsis](http://conferences.oreilly.com/strata/big-data-conference-sg-2015/public/schedule/detail/44794).
 
 Spark Summit EU 2015 talk - Productionizing Spark and the Spark Job Server [video](https://www.youtube.com/watch?v=kQGS_6TxfTk&list=PL-x35fyliRwi8TqkQ_dZjoNSkUWkcl01e&index=6) and [slides](https://t.co/bhKKfWgopt)
