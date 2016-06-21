@@ -35,6 +35,8 @@ O'Reilly Podcast Interview - [Building a Scalable Platform for Streaming Updates
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+Spark Summit 2016 - [700 QUERIES PER SECOND WITH UPDATES: SPARK AS A REAL-TIME WEB SERVICE](http://www.slideshare.net/SparkSummit/700-queries-per-second-with-updates-spark-as-a-realtime-web-service) and [video](https://youtu.be/nAX53vQy9AQ) 
+
 Strata San Jose 2015 - [NoLambda: A new architecture combining streaming, ad hoc, machine-learning, and batch analytics](http://conferences.oreilly.com/strata/hadoop-big-data-ca/public/schedule/detail/46818)
 
 Strata Singapore 2015 - [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark) - sorry video doesn't seem to be up yet but here is [synopsis](http://conferences.oreilly.com/strata/big-data-conference-sg-2015/public/schedule/detail/44794).
@@ -46,8 +48,6 @@ Big Data Scala 2015 - [End to End Pipeline Training](http://bit.ly/pipeline-slid
 SF Spark and Friends - Nov 2015 - [FiloDB: Combining Spark Streaming and Ad-Hoc Analytics](http://velvia.github.io/presentations/2015-filodb-spark-streaming)
 
 Scala Days 2015 talk on [Productionizing Akka](https://www.parleys.com/tutorial/akka-production-why-how)
-
-Video of my talk [Interactive OLAP on Spark and Cassandra](https://www.youtube.com/watch?v=zke8mp-kMMo)
 
 SF Spark and Friends .. Cassandra South Bay Meetup .. Scala Days 2015 SF .. FOSS4G-NA 2015 .. Cassandra Summit 13 14 .. Spark Summit 13 14 ..
 
