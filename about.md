@@ -12,7 +12,7 @@ These are all projects I created or co-created, and I maintain most of them... w
 
 * [Spark Job Server](http://github.com/spark-jobserver/spark-jobserver) - REST API for Apache Spark job submission, logging, control
     * Job Server is being included in Datastax Enterprise!
-* [FiloDB](http://github.com/velvia/FiloDB) and [filo](http://github.com/velvia/filo) - high performance distributed analytical database built on Apache Spark and Cassandra
+* [FiloDB](http://github.com/filodb/FiloDB) and [filo](http://github.com/velvia/filo) - high performance distributed analytical database built on Apache Spark and Cassandra
 * [Scala links](http://github.com/velvia/links) - useful links for learning Scala and Scala projects
 * [ScalaStorm](http://github.com/velvia/ScalaStorm)
 * [msgpack4s](http://github.com/velvia/msgpack4s) - a fast, streaming-friendly, type-safe MessagePack library for Scala
