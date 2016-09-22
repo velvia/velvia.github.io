@@ -4,7 +4,7 @@ title: Two Simple Scala Futures Hints
 date: 2016-04-14
 ---
 
-What's wrong with this Scala for-comprehension, which attempts to carry out three asynchronous I/O operations?  (This comes from [FiloDB](http://github.com/tuplejump/FiloDB)'s actor code for creating a new dataset.  There are three operations that must be done:  First, creating a dataset, second, creating a whole bunch of column definitions, and third, initializing the actual data table.  The second future is not supposed to execute if the first one did not return `Success`.)
+What's wrong with this Scala for-comprehension, which attempts to carry out three asynchronous I/O operations?  (This comes from [FiloDB](http://github.com/filodb/FiloDB)'s actor code for creating a new dataset.  There are three operations that must be done:  First, creating a dataset, second, creating a whole bunch of column definitions, and third, initializing the actual data table.  The second future is not supposed to execute if the first one did not return `Success`.)
 
 ```scala
       (for { resp1 <- metaStore.newDataset(datasetObj)
@@ -48,4 +48,4 @@ Furthermore, what happens if the predicate fails?  This causes a `NoSuchElementE
 
 ## If you are interested in the code
 
-Please see the `createDataset` method in FiloDB [NodeCoordinatorActor](https://github.com/tuplejump/FiloDB/blob/feature/automated-stress-testing/coordinator/src/main/scala/filodb.coordinator/NodeCoordinatorActor.scala).
+Please see the `createDataset` method in FiloDB [NodeCoordinatorActor](https://github.com/filodb/FiloDB/blob/feature/automated-stress-testing/coordinator/src/main/scala/filodb.coordinator/NodeCoordinatorActor.scala).

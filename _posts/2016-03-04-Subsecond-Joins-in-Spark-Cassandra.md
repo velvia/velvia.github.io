@@ -56,7 +56,7 @@ Overall, the plan worked fairly well.  Using good data modeling with partition k
 
 ## Using mixed Cassandra + FiloDB Tables
 
-We decided to store data from the two largest tables (one a fact table, one a large dimension table) into [FiloDB](http://github.com/tuplejump/FiloDB), which stores data into Cassandra in a columnar format optimized for fast analytical/OLAP queries.  FiloDB has a [data model](https://github.com/tuplejump/FiloDB#introduction-to-filodb-data-modelling) similar to Cassandra's, meaning we can utilize the same strategy of single-partition lookups to effectively filter queries.  When the two large Cassandra tables are substituted for FiloDB tables, here are the results:
+We decided to store data from the two largest tables (one a fact table, one a large dimension table) into [FiloDB](http://github.com/filodb/FiloDB), which stores data into Cassandra in a columnar format optimized for fast analytical/OLAP queries.  FiloDB has a [data model](https://github.com/filodb/FiloDB#introduction-to-filodb-data-modelling) similar to Cassandra's, meaning we can utilize the same strategy of single-partition lookups to effectively filter queries.  When the two large Cassandra tables are substituted for FiloDB tables, here are the results:
 
 ![](/images/Four-Table-Spark-Join.png)
 
@@ -66,6 +66,6 @@ We'll focus on the event timeline, since the DAG is the same except for the stag
 
 You've hopefully seen the strategies and technologies that, when put together, can accelerate real world JOIN queries on Spark and Cassandra - even 4-table JOINs can run sub-second!
 
-For more information on FiloDB, come and check out our [O'Reilly Webcast](http://www.oreilly.com/pub/e/3652), or feel free to play with the [Github project](http://github.com/tuplejump/FiloDB).  Also visit the [Datastax Enterprise](http://www.datastax.com/products/datastax-enterprise) landing page.
+For more information on FiloDB, come and check out our [O'Reilly Webcast](http://www.oreilly.com/pub/e/3652), or feel free to play with the [Github project](http://github.com/filodb/FiloDB).  Also visit the [Datastax Enterprise](http://www.datastax.com/products/datastax-enterprise) landing page.
 
 If you are interested in working on leading edge big data technologies such as Spark, Cassandra, and FiloDB, consider joining our effort at Element and Tuplejump!

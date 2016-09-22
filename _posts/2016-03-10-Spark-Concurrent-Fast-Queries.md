@@ -25,14 +25,14 @@ I brought up SQL specifically to make a point: let's say that your queries are m
 
 ## Enabling Fast Queries with FiloDB Columnar Storage
 
-You might not have heard of [FiloDB](http://www.github.com/tuplejump/FiloDB).  FiloDB is columnar storage technology that allows for two-dimensional filtering and updates, with an in-memory storage engine as well as a persistent one for Apache Cassandra.  We'll be looking at the in-memory option here.
+You might not have heard of [FiloDB](http://www.github.com/filodb/FiloDB).  FiloDB is columnar storage technology that allows for two-dimensional filtering and updates, with an in-memory storage engine as well as a persistent one for Apache Cassandra.  We'll be looking at the in-memory option here.
 
 Why would you want to use FiloDB for low-latency queries, instead of, say, Spark's built-in DataFrame caching?
 
 - You can filter data in two dimensions, whereas the built-in dataframes are mostly meant for whole-table scans.  Filtering is crucial to low latency.
 - FiloDB tables support insert and update by primary key.  This might be important for Spark Streaming, IoT, time series applications.
 
-FiloDB has a [data model](https://github.com/tuplejump/FiloDB#introduction-to-filodb-data-modelling) similar to Cassandra's, enabling easy fine-grained partition key filtering.
+FiloDB has a [data model](https://github.com/filodb/FiloDB#introduction-to-filodb-data-modelling) similar to Cassandra's, enabling easy fine-grained partition key filtering.
 
 ## RDD collectAsync
 
@@ -41,7 +41,7 @@ We'll be using the [NYC Taxi Trip and Fare Info](http://www.andresmh.com/nyctaxi
 * Using the first two characters of the medallion (an ID of the cab) as a partition key, we can shard the rate information into hundreds of shards
 * Within each partition, we group by the pickup timestamp and the license
 
-The code and instructions for running benchmarks can be viewed [here](https://github.com/tuplejump/FiloDB/tree/feature/automated-stress-testing/stress).
+The code and instructions for running benchmarks can be viewed [here](https://github.com/filodb/FiloDB/tree/master/stress).
 
 To support running concurrent queries better, we rely on a relatively unknown feature of Spark's RDD API, `collectAync`:
 
@@ -85,4 +85,4 @@ Some other possibilities are:
 
 Currently, FiloDB's InMemoryColumnStore is intended only for single-node low-latency operation.  Adding distribution, or making the in-memory layer as a cache for Cassandra and other persistent stores, is a possible direction, so your feedback is welcome!
 
-To find out more about FiloDB, come and check out our [O'Reilly Webcast](http://www.oreilly.com/pub/e/3652), or feel free to play with the [Github project](http://github.com/tuplejump/FiloDB).
+To find out more about FiloDB, come and check out our [O'Reilly Webcast](http://www.oreilly.com/pub/e/3652), or feel free to play with the [Github project](http://github.com/filodb/FiloDB).

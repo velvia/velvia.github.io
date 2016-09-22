@@ -6,7 +6,7 @@ tags: [updates,personal,podcast]
 
 ## Happy 2016!
 
-Happy new year everyone!  It's been a while since I updated my blog, and that's because around the time of my last blog I joined [Tuplejump](http://tuplejump.com), and have been busy working on [FiloDB](http://github.com/tuplejump/FiloDB), speaking at Spark Summit Europe and Strata Singapore, starting a new consulting gig, and lots more!  Plus the holidays are always extremely busy.  We've had lots of snow here, which means lots of friends visiting, time snowboarding and enjoying our backyard sled run, and lots of shoveling and exercise.  :)
+Happy new year everyone!  It's been a while since I updated my blog, and that's because around the time of my last blog I joined [Tuplejump](http://tuplejump.com), and have been busy working on [FiloDB](http://github.com/filodb/FiloDB), speaking at Spark Summit Europe and Strata Singapore, starting a new consulting gig, and lots more!  Plus the holidays are always extremely busy.  We've had lots of snow here, which means lots of friends visiting, time snowboarding and enjoying our backyard sled run, and lots of shoveling and exercise.  :)
 
 <center>
 ![Snow In Backyard](/images/snow_backyard.jpg)

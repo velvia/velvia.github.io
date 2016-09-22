@@ -4,7 +4,7 @@ title: Scala Lessons from FiloDB
 date: 2017-04-15
 ---
 
-Writing high performance code is not easy in any language.  I'm hoping to share some tips learned from working on many high performance data projects, including [FiloDB](http://github.com/tuplejump/FiloDB), my high performance, Spark-based analytical database written all in Scala!  Also, general tips on concurrency, actors, and other relevant topics will be included.
+Writing high performance code is not easy in any language.  I'm hoping to share some tips learned from working on many high performance data projects, including [FiloDB](http://github.com/filodb/FiloDB), my high performance, Spark-based analytical database written all in Scala!  Also, general tips on concurrency, actors, and other relevant topics will be included.
 
 ## Iterators
 

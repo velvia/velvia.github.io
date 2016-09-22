@@ -5,7 +5,7 @@ tags: [scala]
 date: 2016-02-02
 ---
 
-In the course of working on [FiloDB](http://github.com/tuplejump/FiloDB) and other Scala data apps, we often have to work with data whose types are not known at compile time.  For FiloDB, for example, a user can ingest data with any schema.  At runtime, the schema tells us what type each column of data is.  What are some approaches we can take to work with data like that?
+In the course of working on [FiloDB](http://github.com/filodb/FiloDB) and other Scala data apps, we often have to work with data whose types are not known at compile time.  For FiloDB, for example, a user can ingest data with any schema.  At runtime, the schema tells us what type each column of data is.  What are some approaches we can take to work with data like that?
 
 ## Type classes
 
