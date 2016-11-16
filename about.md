@@ -35,6 +35,8 @@ O'Reilly Podcast Interview - [Building a Scalable Platform for Streaming Updates
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+Scala by the Bay 2016 - [Building a High-Performance Database in Scala, Akka, and Spark](http://www.slideshare.net/EvanChan2/building-a-highperformance-database-with-scala-akka-and-spark)
+
 Spark Summit 2016 - [700 QUERIES PER SECOND WITH UPDATES: SPARK AS A REAL-TIME WEB SERVICE](http://www.slideshare.net/SparkSummit/700-queries-per-second-with-updates-spark-as-a-realtime-web-service) and [video](https://youtu.be/nAX53vQy9AQ) 
 
 Strata San Jose 2015 - [NoLambda: A new architecture combining streaming, ad hoc, machine-learning, and batch analytics](http://conferences.oreilly.com/strata/hadoop-big-data-ca/public/schedule/detail/46818)
