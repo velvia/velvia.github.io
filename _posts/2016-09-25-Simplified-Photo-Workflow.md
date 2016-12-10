@@ -135,6 +135,14 @@ If you do not have any of the MacPhun apps, getting Luminar is a no-brainer at $
 4. Lyn - go through `select` subfolder, assign star ratings, tags, keywords, do some cropping and light edits
 5. Use other external tools such as Intensify, HDRtist, Starstax etc. on original images, and export the results into the `select` subfolder
 
+### Reader-Nominated Alternatives
+
+These were suggested by readers after this post was initially published.
+
+* [Picktorial](https://www.picktorial.com/) - great looking all-in-one photo manager and editor, RAW processing, nice patch tool
+* [iSmartPhoto](https://itunes.apple.com/us/app/ismartphoto/id940107333?mt=12) - $4.99 browser and organizer, multi folder selection, no editing
+* [Hugin](http://hugin.sourceforge.net/) - open source pano photo stitcher
+
 ## The Rejects
 
 This section is for the "What about X/Y/Z" folks.  Here are some free image management apps:
