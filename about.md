@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I like to think of myself as an artist.  Whether behind the camera lens, or leading dance moves on the floor, or creating next-generation distributed systems, aesthetics and purpose are important to me, as well as community.
+I like to think of myself as an artist.  Whether behind the [camera lens](https://www.instagram.com/platypus.arts/), or leading dance moves on the floor, or creating next-generation distributed systems, aesthetics and purpose are important to me, as well as community.
 
 ### Open Source Projects
 
