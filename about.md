@@ -39,7 +39,7 @@ Scala by the Bay 2016 - [Building a High-Performance Database in Scala, Akka, an
 
 Spark Summit 2016 - [700 QUERIES PER SECOND WITH UPDATES: SPARK AS A REAL-TIME WEB SERVICE](http://www.slideshare.net/SparkSummit/700-queries-per-second-with-updates-spark-as-a-realtime-web-service) and [video](https://youtu.be/nAX53vQy9AQ) 
 
-Strata San Jose 2015 - [NoLambda: A new architecture combining streaming, ad hoc, machine-learning, and batch analytics](http://conferences.oreilly.com/strata/hadoop-big-data-ca/public/schedule/detail/46818)
+Strata San Jose 2016 - [NoLambda: A new architecture combining streaming, ad hoc, machine-learning, and batch analytics](http://conferences.oreilly.com/strata/hadoop-big-data-ca/public/schedule/detail/46818)
 
 Strata Singapore 2015 - [Breakthrough OLAP on Cassandra and Spark](http://velvia.github.io/presentations/2015-breakthrough-olap-cass-spark) - sorry video doesn't seem to be up yet but here is [synopsis](http://conferences.oreilly.com/strata/big-data-conference-sg-2015/public/schedule/detail/44794).
 
