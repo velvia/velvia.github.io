@@ -142,6 +142,7 @@ These were suggested by readers after this post was initially published.
 * [Picktorial](https://www.picktorial.com/) - great looking all-in-one photo manager and editor, RAW processing, nice patch tool
 * [iSmartPhoto](https://itunes.apple.com/us/app/ismartphoto/id940107333?mt=12) - $4.99 browser and organizer, multi folder selection, no editing
 * [Hugin](http://hugin.sourceforge.net/) - open source pano photo stitcher
+* [Raw Power](http://gentlemencoders.com) and [review from TWIP](http://thisweekinphoto.com/twip-apps-21-raw-power/) - Apple RAW processor from the former lead of Aperture
 
 ## The Rejects
 
