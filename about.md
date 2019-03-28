@@ -35,6 +35,10 @@ O'Reilly Podcast Interview - [Building a Scalable Platform for Streaming Updates
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+KEYNOTE - Reactive Summit 2018 - [FiloDB: Reactive, Real-time, In-Memory Time Series at Scale](https://www.slideshare.net/EvanChan2/filodb-reactive-realtime-inmemory-time-series-at-scale)
+
+Scale by the Bay 2017 - [2017 High Performance Database with Scala, Akka, Spark](https://www.slideshare.net/EvanChan2/2017-high-performance-database-with-scala-akka-spark)
+
 Scala by the Bay 2016 - [Building a High-Performance Database in Scala, Akka, and Spark](http://www.slideshare.net/EvanChan2/building-a-highperformance-database-with-scala-akka-and-spark)
 
 Spark Summit 2016 - [700 QUERIES PER SECOND WITH UPDATES: SPARK AS A REAL-TIME WEB SERVICE](http://www.slideshare.net/SparkSummit/700-queries-per-second-with-updates-spark-as-a-realtime-web-service) and [video](https://youtu.be/nAX53vQy9AQ) 
