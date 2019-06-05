@@ -35,6 +35,8 @@ O'Reilly Podcast Interview - [Building a Scalable Platform for Streaming Updates
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+Monitorama PDX 2019 - [Rich Histograms at Scale: A New Hope](https://www.slideshare.net/EvanChan2/histograms-at-scale-monitorama-2019)
+
 SBTB 2018 - [FiloDB: Real-time, In-Memory Time Series at Massive SMACK Scale](https://www.youtube.com/watch?v=EkIZPZbMoNE) (video)
 
 KEYNOTE - Reactive Summit 2018 - [FiloDB: Reactive, Real-time, In-Memory Time Series at Scale](https://www.slideshare.net/EvanChan2/filodb-reactive-realtime-inmemory-time-series-at-scale)
