@@ -35,6 +35,8 @@ O'Reilly Podcast Interview - [Building a Scalable Platform for Streaming Updates
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+Reactive Summit 2020 - [Designing Stateful Apps for Cloud and Kubernetes](https://www.slideshare.net/EvanChan2/designing-stateful-apps-for-cloud-and-kubernetes)
+
 SBTB 2019 - [Rust and Scala, Sitting in a Tree](http://velvia.github.io/presentations/2019-sbtb-rust-scala/#1)
 
 Monitorama PDX 2019 - [Rich Histograms at Scale: A New Hope](https://www.slideshare.net/EvanChan2/histograms-at-scale-monitorama-2019)
