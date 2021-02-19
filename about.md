@@ -10,6 +10,7 @@ I like to think of myself as an artist.  Whether behind the [camera lens](https:
 
 These are all projects I created or co-created, and I maintain most of them... when time allows :)
 
+* [compressed-vec](https://github.com/velvia/compressed-vec) - Rust SIMD columnar compression library
 * [Spark Job Server](http://github.com/spark-jobserver/spark-jobserver) - REST API for Apache Spark job submission, logging, control
     * Job Server is being included in Datastax Enterprise!
 * [FiloDB](http://github.com/filodb/FiloDB) and [filo](http://github.com/velvia/filo) - high performance distributed analytical database built on Apache Spark and Cassandra
@@ -38,6 +39,7 @@ See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site
 Reactive Summit 2020 - [Designing Stateful Apps for Cloud and Kubernetes](https://www.slideshare.net/EvanChan2/designing-stateful-apps-for-cloud-and-kubernetes)
 
 SBTB 2019 - [Rust and Scala, Sitting in a Tree](http://velvia.github.io/presentations/2019-sbtb-rust-scala/#1)
+    * [Youtube video](https://www.youtube.com/watch?v=bKfkGYdg6zE)
 
 Monitorama PDX 2019 - [Rich Histograms at Scale: A New Hope](https://www.slideshare.net/EvanChan2/histograms-at-scale-monitorama-2019)
 
