@@ -24,6 +24,8 @@ These are all projects I created or co-created, and I maintain most of them... w
 
 ### Interviews, WebCasts, Blogs
 
+Reactive Foundation blog post - [Decoupling Space: Create Flexibility by Embracing the Network](https://www.reactive.foundation/post/decouple-space-the-reactive-principles-explained) - my blog post on how Actors and message passing decouples space and allows for flexible app architecture
+
 O'Reilly Webcast - [Fast and Simplified Streaming, Ad-Hoc and Batch Analytics with FiloDB and Spark Streaming](http://www.oreilly.com/pub/e/3652)
 
 Typesafe blog/interview - [Fast Forward With Fast Data, Scala and Akka: Q/A with Spark Job Server creator](https://t.co/YUCdpUTqyg)
