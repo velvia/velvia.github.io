@@ -37,6 +37,7 @@ OK, so for coming to BC/Canada with a car from the US, with a work permit, this 
 
 - You DO want to have the car paid off before crossing the border.  Banks won’t like cars not paid off to cross the border, and the CBSA needs to see the car title to give you an import form.
 - Also REALLY important: get your full driving history from DMV before coming (for insurance)
+- NOTE: one sucky thing is that California only keeps the last 10 years of your driving history.  This causes one to lose driving history with ICBC.  :/
 - ICBC, the insurance co in BC, and others will keep telling you to abide by the RIV process to import a vehicle, but this is a huge pain which involves making sure your vehicle has done all recalls in the US, and paying huge fees for export and import (US$1000 for my Volvo!), and probably changes and customizations to the vehicle.
 - Also, you have to pay 15-20% import duty taxes (!!!) on the vehicle if you are not PR/citizen.
 
