@@ -22,9 +22,10 @@ Most of these are all projects I created or co-created :)
 
 I created FiloDB from scratch and lead its development from before when Apple acquired my company, all the way
 to its productionization as the core time series database technology at Apple handling billions of time series
-metrics and Prometheus PromQL queries for the last several years.
+metrics and Prometheus PromQL queries for the last several years (since 2019).
 
 - Heavily involved in the design, architecture, and development of virtually all components, including high speed data processing, columnar format, recovery, indexing, and the PromQL query engine which we wrote from scratch
+- Got FiloDB productionized at Apple since 2019
 - Scales up to process hundreds of thousands of Prometheus data samples per second per node
 - Innovative histogram support, way more scalable than what is in Prometheus
 - Created many innovative custom data structures, many of them zero-copy and with minimal allocations, super high performance
