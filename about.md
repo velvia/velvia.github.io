@@ -41,6 +41,7 @@ I am a columnar compression and OLAP expert, and have created multiple columnar 
 
 * [ying-profiler](https://github.com/velvia/ying-profiler) - I wrote my own sampling (designed for production) Rust memory profiler which can track allocation length
 * [compressed-vec](https://github.com/velvia/compressed-vec) - Rust SIMD columnar compression library, with innovative format designed for super fast reads esp of sparse columnar data
+* [telemetry-subscribers](https://github.com/velvia/telemetry-subscribers) - A bunch of tracing subscribers for common app telemetry, such as Jaeger, span instrumentation, Tokio console, etc.
 
 ### Other Data Projects I Created
 
@@ -78,7 +79,7 @@ Scale by the Bay 2017 - [2017 High Performance Database with Scala, Akka, Spark]
 
 Scala by the Bay 2016 - [Building a High-Performance Database in Scala, Akka, and Spark](http://www.slideshare.net/EvanChan2/building-a-highperformance-database-with-scala-akka-and-spark)
 
-Spark Summit 2016 - [700 QUERIES PER SECOND WITH UPDATES: SPARK AS A REAL-TIME WEB SERVICE](http://www.slideshare.net/SparkSummit/700-queries-per-second-with-updates-spark-as-a-realtime-web-service) and [video](https://youtu.be/nAX53vQy9AQ) 
+Spark Summit 2016 - [700 QUERIES PER SECOND WITH UPDATES: SPARK AS A REAL-TIME WEB SERVICE](http://www.slideshare.net/SparkSummit/700-queries-per-second-with-updates-spark-as-a-realtime-web-service) and [video](https://youtu.be/nAX53vQy9AQ)
 
 Strata San Jose 2016 - [NoLambda: A new architecture combining streaming, ad hoc, machine-learning, and batch analytics](http://conferences.oreilly.com/strata/hadoop-big-data-ca/public/schedule/detail/46818)
 
