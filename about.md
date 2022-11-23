@@ -62,6 +62,8 @@ ScalaStorm was used for Ooyala's real time analytics application, which started 
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+SBTB 2021 - [Location-Based Data Engineering for Good](https://www.youtube.com/watch?v=dzNDrxVNjLk) - [slides](http://velvia.github.io/presentations/2021-lbs-data-eng-for-good-pyspark/index.html#1)
+
 CNCF 2021 Rust Day - [Allocating Less: Really Thin Rust Cloud Apps](http://velvia.github.io/presentations/2021-cncf-rustday-alloc-less/index.html)
 
 Reactive Summit 2020 - [Designing Stateful Apps for Cloud and Kubernetes](https://www.slideshare.net/EvanChan2/designing-stateful-apps-for-cloud-and-kubernetes)
