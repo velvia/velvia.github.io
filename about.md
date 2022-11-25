@@ -43,6 +43,8 @@ I am a columnar compression and OLAP expert, and have created multiple columnar 
 * [compressed-vec](https://github.com/velvia/compressed-vec) - Rust SIMD columnar compression library, with innovative format designed for super fast reads esp of sparse columnar data
 * [telemetry-subscribers](https://github.com/velvia/telemetry-subscribers) - A bunch of tracing subscribers for common app telemetry, such as Jaeger, span instrumentation, Tokio console, etc.
 
+I have also worked on Apache Arrow (Rust) and Datafusion based query engines and contributed to the Arrow Rust codebase.
+
 ### Other Data Projects I Created
 
 * [Spark Job Server](http://github.com/spark-jobserver/spark-jobserver) - REST API for Apache Spark job submission, logging, control
@@ -56,6 +58,7 @@ ScalaStorm was used for Ooyala's real time analytics application, which started 
 ### Other Projects I Have Contributions To
 
 * https://github.com/MystenLabs/sui - Layer1 Blockchain
+* https://github.com/apache/arrow-rs - contributed timestamp column functionality to Arrow Rust
 * Apache Spark
 
 ## Presentations and Conferences
