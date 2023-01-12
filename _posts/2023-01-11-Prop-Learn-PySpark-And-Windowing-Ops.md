@@ -2,7 +2,7 @@
 layout: post
 title: Learn PySpark and Windowing Ops
 tags: [bigdata, spark, python, analytics]
-date: 2022-01-11
+date: 2023-01-11
 ---
 
 (Note: this is adapted from my talk at 2021 Scale by the Bay, [Location-Based Data Engineering for Good](https://www.youtube.com/watch?v=dzNDrxVNjLk))
