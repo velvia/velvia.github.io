@@ -22,7 +22,7 @@ or custom code.  I will use an example from location-based data processing.
 ## Example: Traffic Analysis from Mobile Data
 
 <center>
-<img src="images/Transit_Vancouver_LBS.png" height="350" />
+<img src="/images/Transit_Vancouver_LBS.png" height="350" />
 </center>
 
 I'm going to use an interesting example from trip and traffic analysis of mobile location data.  Apps that
