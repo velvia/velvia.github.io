@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A Data-Oriented Approach to Software Careers and Job Search
-tags: [bigdata, spark, python, analytics]
-date: 2024-08-20
+tags: [jobs, career]
+date: 2024-08-01
 ---
 
 At the beginning of this year, I took some extra time to conduct a much more thorough job search than I usually do.  I
