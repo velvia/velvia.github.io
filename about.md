@@ -65,6 +65,8 @@ ScalaStorm was used for Ooyala's real time analytics application, which started 
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+Hytradboi 2025 Lightning Talk - [Zero-Copy Data Structures](https://www.hytradboi.com/2025/df37d71b-0552-47f9-af36-f53c9ee09f8f-zero-copy-data-structures)
+
 MinneAnalytics 2024 - [Time-State Analytics](https://www.slideshare.net/slideshow/time-state-analytics-minneanalytics-2024-talk/27017563)
 
 SBTB 2023 - [Porting a Streaming Data Pipeline from Scala to Rust](https://www.youtube.com/watch?v=qJ3C3YP58Os&list=PLNESult6cnOlHK5bRvdT8f2UnoyZ9TfKW&index=18) - [slides](https://velvia.github.io/presentations/2023-conviva-scala-to-rust/index.html#1)
