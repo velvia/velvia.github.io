@@ -108,6 +108,8 @@ SF Spark and Friends .. Cassandra South Bay Meetup .. Scala Days 2015 SF .. FOSS
 
 ## Interviews, WebCasts, Blogs
 
+Conviva blog post about Rust, atomics, concurrency - [The Concurrency Trap: How an Atomic Counter Stalled a Pipeline](https://www.conviva.com/platform/the-concurrency-trap-how-an-atomic-counter-stalled-a-pipeline/) (I am listed as co-author, though my coworker wrote most of it)
+
 I appeared on the Data Exchange podcast for [2023 Trends in Data Engineering and Infrastructure](https://thedataexchange.media/2023-trends-in-data) with good friends Ben Lorica and Jesse Andersen.
 
 Reactive Foundation blog post - [Decoupling Space: Create Flexibility by Embracing the Network](https://www.reactive.foundation/post/decouple-space-the-reactive-principles-explained) - my blog post on how Actors and message passing decouples space and allows for flexible app architecture
