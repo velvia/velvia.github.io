@@ -65,6 +65,10 @@ ScalaStorm was used for Ooyala's real time analytics application, which started 
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
 
+RustConf 2026 Community Talk - [ying-profiler: a Sampling, Retained Memory Profiler](http://velvia.github.io/presentations/2026-ying-profiler/#1)
+
+Monster Scale Conf 2025 - [Data Structures for Trillions of Events Per Day](https://www.youtube.com/watch?v=1VRL3jLhAZQ)
+
 Hytradboi 2025 Lightning Talk - [Zero-Copy Data Structures](https://www.hytradboi.com/2025/df37d71b-0552-47f9-af36-f53c9ee09f8f-zero-copy-data-structures)
 
 MinneAnalytics 2024 - [Time-State Analytics](https://www.slideshare.net/slideshow/time-state-analytics-minneanalytics-2024-talk/270175638)
