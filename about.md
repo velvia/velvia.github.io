@@ -16,6 +16,11 @@ Keywords: Spark, Kafka, SQL, OLAP, data warehouse, database, time series, Promet
 
 Most of these are all projects I created or co-created :)
 
+### Conviva Pattern Analytics Database
+
+Blog posts:
+- [io_uring: We replaced mmap with io_uring](https://t.co/5zFSYI7TQh)
+
 ### FiloDB (2015-)
 
 [FiloDB](http://github.com/filodb/FiloDB) and [filo](http://github.com/velvia/filo) - high performance distributed Prometheus time series database.
@@ -64,6 +69,9 @@ ScalaStorm was used for Ooyala's real time analytics application, which started 
 ## Presentations and Conferences
 
 See [SlideShare](http://www.slideshare.net/evanchan2) and my [presentations site](http://velvia.github.io/presentations)
+
+P99Conf 2026 - [Building a Real-World 14GB/s io_uring Arrow Tokio Rust](https://p99conf.io/session/building-a-real-world-14-gb-sec-io_uring-tokio-arrow-rust-pipeline/)
+- associated [blog post](https://t.co/5zFSYI7TQh)
 
 RustConf 2026 Community Talk - [ying-profiler: a Sampling, Retained Memory Profiler](http://velvia.github.io/presentations/2026-ying-profiler/#1)
 
